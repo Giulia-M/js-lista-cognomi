@@ -31,7 +31,7 @@ if (!inputUtente) {
 
         console.log(sorted[i])
         
-
+        // utilizzo l'IF per capire il posizionamento del cognome che scriverà l'utente 
         if (elementoDaAnalizzare === inputUtente) {
             posizioneUtente = i + 1;
         }
@@ -40,7 +40,7 @@ if (!inputUtente) {
         i++
 
     }
-    
+
     console.log("il cognome" + inputUtente + "si trova " + posizioneUtente);
     
 }
