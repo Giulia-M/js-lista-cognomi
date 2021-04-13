@@ -41,7 +41,7 @@ if (!inputUtente) {
 
     }
 
-    console.log("il cognome" + inputUtente + "si trova " + posizioneUtente);
+    console.log("Il cognome " + inputUtente + " si trova in posizione " + posizioneUtente);
     
 }
 
